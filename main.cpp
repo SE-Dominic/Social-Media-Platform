@@ -5,6 +5,9 @@
 using namespace std;
 
 int main() {
-  cout << "Hello World" << endl;
+  Account dom;
+  dom.setUsername("dombomb.com");
+  dom.setDescription("Just living and vibing in the U.S.A");
+  dom.printAccountInfo();
   return 0;
 }
